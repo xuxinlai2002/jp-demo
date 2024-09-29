@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.okx-wallet-button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.okx-wallet-button:hover {
+  background-color: #0d8bf2;
+}
